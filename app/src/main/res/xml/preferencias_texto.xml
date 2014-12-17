@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="texto"
+        android:title="@string/texto"
+        android:summary="@string/texto_descripcion"
+        android:dialogTitle="@string/texto"/>
+
+    <ListPreference
+        android:key="texto_tamaño"
+        android:title="@string/texto_tamaño"
+        android:summary="@string/texto_tamaño_descripcion"
+        android:dialogTitle="@string/texto_tamaño"
+        android:entries="@array/tamaños"
+        android:entryValues="@array/tamaños_values"/>
+
+</PreferenceScreen>

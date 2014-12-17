@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="com.example.rals.preferenciasheader.FragmentHeader"
+        android:title="@string/fondo"
+        android:icon="@drawable/ic_action_picture">
+        <extra
+            android:name="ajustes"
+            android:value="header_fondo"/>
+        </header>
+
+    <header
+        android:fragment="com.example.rals.preferenciasheader.FragmentHeader"
+        android:title="@string/texto"
+        android:icon="@drawable/ic_action_edit">
+        <extra
+            android:name="ajustes"
+            android:value="header_texto"/>
+        </header>
+</preference-headers>
