@@ -29,11 +29,11 @@
         <item>20 dp</item>
         <item>30 dp</item>
     </string-array>
-    <array name="tamaños_values">
+    <string-array name="tamaños_values">
         <item>10</item>
         <item>20</item>
         <item>30</item>
-    </array>
+    </string-array>
 
     <string name="title_activity_main_activity2">MainActivity2</string>
 
